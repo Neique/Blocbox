@@ -2,11 +2,6 @@ html, body{
   overflow-x: hidden;
 }
 
-
-
-
-
-
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color:#333333;
@@ -367,4 +362,9 @@ header .hero {
 
 .testimonials ul{
   list-style-type: none;
+}
+
+/* Large Screens */
+@media only screen
+and (min-width: 1824px) {
 }
