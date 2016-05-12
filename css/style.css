@@ -7,7 +7,7 @@ body {
   color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Varela Round", Helvetica, Arial, sans-serif;
+  font-family: "Work sans", Helvetica, Arial, sans-serif;
 }
 h2 {
   font-size:28px;
@@ -296,10 +296,30 @@ header .hero {
    font-size:13px;
    margin-top: 30px;
  }
+
  .boxed {
  position:relative;
  top:30px;
  }
+
+ /* New Section */
+ div.new {
+   padding: 5px;
+    background-color: #34495E;
+    height: 125px;
+}
+
+ h2.new {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+ p.new {
+    font-family: "Work-sans", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
 
  /* FOOTER */
  footer {
@@ -328,12 +348,21 @@ header .hero {
  }
  footer .right-footer-block {
    background-color: transparent;
+   background-position: bottom right;
+   padding-top: 20px;
+   position: relative;
+   left: 220px;
+
  }
  footer .logo{
-   padding: 2.35em 0;
-   margin: 0 auto;
-   display: block;
- }
+    padding: 2.35em 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+.img {
+}
 
  @media (min-width: 992px){
    footer{
@@ -346,11 +375,15 @@ header .hero {
      padding: 2em 0;
      text-align: left;
    }
-   footer .logo{
+
+   footer. logo{
      padding: 2em 0 2em 1.5em;
+     position: relative;
+     right: 60px;
    }
+
    footer .right-footer-block {
-     background-color: #34495E;
+     background-color: #3498DB;
    }
  }
 
@@ -425,7 +458,7 @@ and (min-width: 1824px) {
 
  .active {
    background: #34495e;
-   padding: 5px 28% 5px 2px;
+   padding: 5px 28% 5px 0px;
    width: 100%;
  }
 
@@ -469,8 +502,37 @@ and (min-width: 1824px) {
  }
 
 
-
-
+/* Larger Mobile Devices */
+ @media (min-width:460px) {
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content-item {
+     width:46%;
+     margin:0 2% 25px;
+     float:left;
+     display:block;
+   }
+ }
+/* Tablets */
+ @media (min-width:768px) {
+   .content {
+     padding:1.5em 5%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content > .container {
+     width:700px;
+   }
+   .content-item {
+     width:31.33333%;
+     margin:0 1% 25px;
+   }
+ }
 /* Laptops and Desktops */
  @media (min-width:992px) {
    .content {
