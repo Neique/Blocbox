@@ -9,6 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Work sans", Helvetica, Arial, sans-serif;
 }
+
 h2 {
   font-size:28px;
   font-weight: normal;
@@ -311,14 +312,28 @@ header .hero {
 
  h2.new {
     font-family: "Lato", Helvetica, Arial, sans-serif;
+    text-align: center;
     color: #FFFFFF;
     font-size: 28px;
 }
  p.new {
     font-family: "Work-sans", Helvetica, Arial, sans-serif;
+    text-align: center;
     color: #FFFFFF;
     font-size: 16px;
 
+}
+.btn-outline{
+  text-align: center;
+}
+
+.btn-outline a {
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+.btn-outline a:hover {
+  color: #3498DB;
 }
 
  /* FOOTER */
@@ -385,7 +400,6 @@ header .hero {
    footer .right-footer-block {
      background-color: #3498DB;
    }
- }
 
 .section ul{
    list-style-type: none;
@@ -408,9 +422,10 @@ and (min-width: 1824px) {
 }
 
 /* DASHBOARD */
- .dashboard {
+.dashboard {
    background:#F7F7F7;
  }
+
  .left-nav {
    height: 100vh;
    width:14.66666667%;
@@ -420,6 +435,7 @@ and (min-width: 1824px) {
    float:left;
    position: fixed;
    display:block;
+
  }
  .left-nav .site-logo {
    padding:20px 0;
@@ -462,6 +478,82 @@ and (min-width: 1824px) {
    width: 100%;
  }
 
+ .image ul {
+    list-style-type: none;
+  }
+
+/* -- Dashboard_2 --*/
+ ul.image li {
+   list-style-type: none;
+   float: right;
+    height:230px;
+    margin: 0px;
+    padding: 3px;
+    width:400px;
+  }
+
+.btn {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  left: 1300px;
+}
+
+  div.header {
+    position: relative;
+    font-family: "Work sans", sans-serif;
+    bottom: 170px;
+    left: 720px;
+  }
+
+h1.new {
+   font-family: Lato, sans-serif;
+   font weight: normal;
+    postion: relative;
+    color: #3498DB;
+    bottom: 100px;
+    left: 1200px;
+  }
+
+  .link a:hover {
+    color: #3498DB;
+  }
+
+  /* LEFT NAVBAR SETTINGS */
+ .left-nav .settings {
+    position:absolute;
+    background:#22303E;
+    width:100%;
+    bottom: 0px;
+    left:0;
+    right:0;
+    padding:10px 0;
+  }
+
+  .left-nav .settings img {
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+    margin-left:10px;
+    display: inline-block;
+  }
+
+  .left-nav .settings p {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8px;
+    font-weight: 400;
+    margin:0 0 0 10px;
+  }
+  .left-nav .settings a {
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+    margin-right:10px;
+    margin-top:8px;
+  }
+
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
@@ -501,7 +593,6 @@ and (min-width: 1824px) {
    padding:20px;
  }
 
-
 /* Larger Mobile Devices */
  @media (min-width:460px) {
    .content {
@@ -516,7 +607,8 @@ and (min-width: 1824px) {
      float:left;
      display:block;
    }
- }
+
+
 /* Tablets */
  @media (min-width:768px) {
    .content {
@@ -532,7 +624,7 @@ and (min-width: 1824px) {
      width:31.33333%;
      margin:0 1% 25px;
    }
- }
+
 /* Laptops and Desktops */
  @media (min-width:992px) {
    .content {
@@ -548,7 +640,7 @@ and (min-width: 1824px) {
      width:23%;
      margin:0 1% 25px;
    }
- }
+
 
  .item-box > img {
   position:absolute;
