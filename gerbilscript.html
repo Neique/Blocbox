@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<style>
+			h1 {
+				background-color: green;
+				color: pink;
+			}
+
+
+			/* Simple dropdown menu in css
+
+				Hide the nested menu, and show on hover of the top level list item
+			*/
+
+
+			ul ul {
+				display: none;
+			}
+
+			ul li:hover ul {
+				display: block;
+			}
+
+
+		</style>
+		
+	</head>
+	<body>
+		
+	
+		<ul>
+			<li>
+				Top level thing
+				<ul>
+					<li>
+						second level thing
+					</li>
+					<li>
+						second level thing
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+		<h1>This is a header</h1>
+
+		<p>This is a paragraph</p>
+
+	
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+
+		<script>
+			// jquery searches DOM (stuff on the page) find it, and performs actions on hover, in this case we fadeToggle the paragraph on the page
+			$('h1').hover(function() {
+				$('p').fadeToggle();
+			});	
+		</script>
+
+
+		
+	</body>
+
+</html>
