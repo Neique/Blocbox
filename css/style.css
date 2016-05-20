@@ -401,32 +401,32 @@ header .hero {
      background-color: #3498DB;
    }
 
-.section ul{
-   list-style-type: none;
- }
-.pricing ul{
-  list-style-type: none;
-}
+  .section ul{
+     list-style-type: none;
+   }
+  .pricing ul{
+    list-style-type: none;
+  }
 
-.benefits ul{
-  list-style-type: none;
-}
+  .benefits ul{
+    list-style-type: none;
+  }
 
-.testimonials ul{
-  list-style-type: none;
-}
+  .testimonials ul{
+    list-style-type: none;
+  }
 
-/* Large Screens */
-@media only screen
-and (min-width: 1824px) {
-}
 
-/* DASHBOARD */
-.dashboard {
-   background:#F7F7F7;
- }
+
+  /* DASHBOARD */
+  .dashboard {
+     background:#F7F7F7;
+   }
+
+}
 
  .left-nav {
+  display: none;
    height: 100vh;
    height: 100%;
    width:14.66666667%;
@@ -437,7 +437,6 @@ and (min-width: 1824px) {
    float:left;
    position: fixed;
    position:absolute;
-   display:block;
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -673,10 +672,10 @@ and (min-width: 1824px) {
  h1 {
     font-family: Lato, sans-serif;
     font weight: normal;
-     position: relative;
-     color: #3498DB;
-     top: 50px;
-     left: 260px;
+/*     position: relative;
+*/     color: #3498DB;
+     /*top: 50px;
+     left: 260px;*/
    }
 
 /* Larger Mobile Devices */
