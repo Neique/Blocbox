@@ -569,19 +569,19 @@ and (min-width: 1824px) {
     width:400px;
   }
 
-.btn {
+/*.btn {
   text-align: center;
   position: relative;
   bottom: 10px;
   left: 1295px;
 }
-
-  div.header {
+*/
+  /*div.header {
     position: relative;
     font-family: "Work sans", sans-serif;
     bottom: 170px;
     left: 720px;
-  }
+  }*/
 
   h1.new {
      font-family: Lato, sans-serif;
