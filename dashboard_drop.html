@@ -44,7 +44,23 @@
      <div class="settings">
        <img src="images/John Doe.png" alt="Blocbox"/>
        <p class="center">John Doe</p>
-       <a href="#"><i class="fa fa-cog"></i></a>
+             
+        <ul class="menu-left-nav">
+          <li>
+            <a href=""><i class="fa fa-cog"></i></a>
+            <ul>
+              <li>
+                <a href="">Thing 1</a>
+              </li>
+              <li>
+                <a href="">Thing 1</a>
+              </li>
+              <li>
+                <a href="">Thing 1</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
      </div>
    </nav>
  </body>
@@ -137,6 +153,7 @@
    <script src="js/dropit.js"></script>
    <script type="text/javascript">
    $(".menu").dropit();
+   $(".menu-left-nav").dropit();
    $( "#menu" ).click(function() {
          $("#left-nav").toggleClass("open");
      });
